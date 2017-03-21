@@ -1,0 +1,92 @@
+</div>
+<div style="clear:both;"></div>
+<div class="footer clearfix mt100 pt20 be " style="background:#262626;">
+    <!-- 脚底目录 -->
+    <!-- <div style="border: 1px solid red;overflow: hidden;text-align: center;margin: auto;width: 1300px;height: 300px;padding-left: 100px;background-color: #000;"> -->
+        
+<div class=" footer-main clearfix">
+  <div class="link-item ">
+  <h3 style="color: #fff">合作伙伴</h3>
+  <ul>
+          <li>
+        <a style="color:#868686;" href="loginLyg" target="_blank">登录入口</a>
+      </li>
+          <li>
+        <a style="color:#868686;" href="register" target="_self">注册入口</a>
+      </li>
+          <li>
+        <a style="color:#868686;" href="" target="_self">我的课程</a>
+      </li>
+      </ul>
+</div>
+
+  <div class="link-item ">
+  <h3 style="color: #fff">课程管理</h3>
+  <ul>
+          <li>
+        <a style="color:#868686;" href="http://www.loyanet.com/course/create" target="_blank">发布课程</a>
+      </li>
+          <li>
+        <a style="color:#868686;" href="http://www.loyanet.com/admin/course/data" target="_blank">课程统计</a>
+      </li>
+          <li>
+        <a style="color:#868686;" href="http://www.loyanet.com/admin/course/category" target="_blank">课程分类</a>
+      </li>
+      </ul>
+</div>
+
+  <div class="link-item hidden-xs">
+  <h3 style="color: #fff">乐育谷APP下载</h3>
+  <img style="width:110px; padding-top:10px" src="http://edusoho-demo.b0.upaiyun.com/files/system/block_picture_1441521835.png" alt="">
+</div>
+
+  <div class="link-item hidden-xs">
+  <h3 style="color: #fff">微信公众号</h3>
+ <img style="width:110px;padding-top:10px" src="/files/system/block_picture_1458123877.jpg?6.16.0" alt="">
+</div>
+</div>
+
+    <!-- </div> -->
+    <div class="footerNav mainContent auto clearfix mt50">
+    </div>
+    <!-- 脚底声明 -->
+    <div class="auto mt20  bf4" style="background:#23282D">
+        <div class="copy tac mainContent auto p20">
+            <p>© Copyright 2010-2015 <a href="#">www.loyanet.com</a> 乐育网 All Rights Reserved
+                </p>
+        </div>
+    </div>
+</div>
+<script> 
+//初始化弹窗
+(function (d) {
+    d['okValue'] = lang.dialog_ok;
+    d['cancelValue'] = lang.dialog_cancel;
+    d['title'] = lang.dialog_title;
+})($.dialog.defaults);
+
+$(function(){
+  $('#fold').toggle(function(){
+    $(this).css('background','url(Public/theme/baidu/images/leftpage.png) no-repeat')
+    $('.ucleft').show(150);
+    showshade();
+  },function(){
+    $(this).css('background','url(Public/theme/baidu/images/rightpage.png) no-repeat') 
+    $('.ucleft').hide(150);
+    hideshade();
+  })
+})
+
+function showshade(){
+   $("#shade").css("height",$(document).height());     
+        $("#shade").css("width",$(document).width());     
+        $("#shade").show();
+}
+ function hideshade(){     
+          
+        $("#shade").hide();     
+    } 
+</script>
+<script src="__PUBLIC__/js/var.js"></script>
+</body>
+</html>
