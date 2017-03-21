@@ -1,1 +1,0 @@
-var url_mode = '0',url_htm = 'html',url_str = '-';
